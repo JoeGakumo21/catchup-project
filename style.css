@@ -1,0 +1,51 @@
+/* font-family: 'Architects Daughter', cursive; */
+body{
+    background-image: url("assests/agri.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#nav{
+    background-color: #c4c4c5;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10%;
+}
+nav ul li{
+    list-style: none;
+    display: inline;
+    padding-left:20px;
+}
+nav p{
+    padding-left: 20px;
+}
+#about{
+    text-align: center;
+    background-color: #cddead;
+    font-family: 'Architects Daughter', cursive;
+}
+#product{
+    display: flex;
+
+
+}
+#product div{
+    padding: 10px 20px 10px 20px;
+    margin: 0 5px 0 5px;
+    font-family: 'shadows into light', cursive;
+}
+#product>div{
+background-color: burlywood;
+opacity: 0.6;
+}
+footer{
+    margin-top: 2px;
+    background-color: cadetblue;
+    height: 30px;
+    text-align: center;
+}
+a{
+    font-family: 'Architects Daughter', cursive;
+    
+}
